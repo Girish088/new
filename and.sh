@@ -1,16 +1,11 @@
 #!/bin/bash
 
-VAR=5
-GIR=12
-RAV=9
-
-if [ $VAR -gt $GIR ] && [ $VAR -gt $RAV ]
+if [ $1 -gt $2 ] && [ $1 -gt $3 ]
 then
-	echo "$VAR is greater than $GIR & $RAV"
-elif [ $GIR -gt $VAR ] && [ $GIR -gt $RAV ]
+	echo "$1 is greater than $2 &v $3"
+elif [ $2 -gt $1 ] && [ $2 -gt $3 ]
 then
-       	echo "$GIR is greater than $VAR & $RAV"
-else [ $RAV -gt $GIR ] && [ $GIR -gt $RAV ]
-
-	echo "$RAV is greater than $GIR & $RAV"
+	echo "$2 is greater than $1 & $3"
+else
+	echo "$3 is greater than $1 & $2"
 fi

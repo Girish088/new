@@ -1,9 +1,10 @@
 #!/bin/bash
 
-echo "enter the username "
-read name
+echo "enter the user name"
+read NAME
 
-echo "enter the password "
-read -s pass
+echo "enter the user pass"
+read -s PASS
 
-echo "$name : $pass"
+echo "$NAME : $PASS"
+

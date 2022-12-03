@@ -1,13 +1,13 @@
 #!/bin/bash
 
-echo " enter the string "
+echo "enter he string"
 read STR
 
-echo " enter from which char you need SUB_STR "
+echo "enter from which char you need to start the str"
 read START
 
-echo " eneter for how many char you need for the SUB_STR "
+echo "enter how many char you need for the str"
 read END
 
-SUB_STR=${STR:$START:$END}
+SUB_STR=${STR:$START:$END }
 echo "$SUB_STR"
