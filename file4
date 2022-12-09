@@ -1,4 +1,9 @@
 my
 name
 is
+<<<<<<< HEAD
 abc
+=======
+star
+and ace
+>>>>>>> master
